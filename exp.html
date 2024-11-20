@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MON FORMULAIRE</title>
+    <link rel="stylesheet" href="exp.css">
+    <script src="exp.js"></script>
+</head>
+<body>
+    <form>
+        <header>
+            <img src="abc.jpg" alt="rien" style="text-align: left;">
+            <h1><center>LABIDI YASSMINE</center></h1>
+        </header>
+        <container>
+            <dl>
+                <dt id="def"><em>programmation web</em></dt>
+                <dd>c'et une matiere d'aprentissage comment faire une page web</dd>
+            </dl>
+            <p>Nom:<input type="text" id="n" class="ab"></p>
+            <p>Prenom:<input type="text" id="p" class="ab"></p>
+            <p>date de naissance:<input type="date" id="d" class="ab"></p>
+            <p>Email:<input type="email" id="e" class="ab"></p>
+            Choisire vos centre d'interet:
+            <input type="checkbox" class="ab" id="t">theatre
+            <input type="checkbox" class="ab" id="m">musique
+            <input type="checkbox" class="ab" id="s">sport<br><br>
+            Niveaux scolaire:
+            <input type="radio" class="ab" id="p">primaire
+            <input type="radio" class="ab" id="se">secondaire
+            <input type="radio" class="ab" id="u">universitaire<br><br>
+            Les langues:
+            <select name="lang" id="b" class="1">
+                <option value="" ></option>
+                <option value="1">arabe</option>
+                <option value="2">francais</option>
+                <option value="3">englais</option>
+                <option value="4">allmand</option>
+                <option value="5">etalia</option>
+                <option value="6">espantiole</option>
+                <option value="7">turk</option>
+            </select>
+        </container>
+        <footer>
+            <input type="submit" onclick="return verif()" value="envoyer">
+        </footer>
+    </form>
+</body>
+</html>
